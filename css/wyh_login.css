@@ -1,0 +1,64 @@
+#login{
+    width:30%;
+    height:auto;
+    /*border:1px solid #c0c0c0;*/
+    position: fixed;
+    top:15%;
+    right:15%;
+    text-align: center;
+    padding-top: 3em;
+    background-color: rgba(0,0,0,0);
+}
+#uname input,#pwd input{
+    width:66%;
+    font-size: 25px;
+    margin:0.5em 0;
+    line-height: 2em;
+    padding: 0 0.3em;
+    border-radius: 10px;
+    border:2px solid #FFB6C1	;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    color:#FFF0F5;
+}
+#uname input:focus,#pwd input:focus{
+    border:2px solid #FFC0CB;
+    box-shadow: 0 0 5px 4px #FFC0CB;
+}
+#go{
+    width:50%;
+    font-size:25px;
+    margin:0.5em 0 2em 0;
+    border: 2px solid #FFB6C1	;
+    /*box-shadow: 0 0 1px 2px #c0c0c0;*/
+    line-height: 1.5em;
+    border-radius:20px;
+    position:relative;
+    left:25%;
+    text-align: center;
+    background-color: rgba(225,225,225,0.2);
+}
+#go:hover{
+    box-shadow: 0 0 5px 4px #FFC0CB;
+    cursor: default;
+    border: 2px solid #FFC0CB;
+}
+.login_go{
+    text-align: center;
+    /*letter-spacing: 0.5em;*/
+    font-family: "Times New Roman";
+    color:#FFC0CB;
+}
+.bgimg{
+    width:100%;
+    position:absolute;
+    z-index: -100;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
